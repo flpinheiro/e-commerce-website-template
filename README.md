@@ -31,4 +31,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 This project shoul implement the folowing template [E-commerce Website Template (Freebie)](https://www.figma.com/community/file/1273571982885059508) developed by [
 Hamza Naeem](https://www.figma.com/community/file/1273571982885059508#:~:text=Publish-,Hamza%20Naeem,-E%2Dcommerce%20Website)
 
-![e-commerce-website-template](./images/89ae9067-9994-4ac8-9ed2-a90b2691e1ab-cover.png)
+![e-commerce-website-template](./.images/89ae9067-9994-4ac8-9ed2-a90b2691e1ab-cover.png)

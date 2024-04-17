@@ -1,1 +1,35 @@
-<p>header works!</p>
+<mat-grid-list cols="3" rowHeight="3rem">
+
+    <mat-grid-tile>
+        <button mat-button>logo</button>
+        <button mat-button [matMenuTriggerFor]="shop">shop</button>
+        <mat-menu #shop="matMenu">
+            <button mat-menu-item>Masculino</button>
+            <button mat-menu-item>Feminino</button>
+        </mat-menu>
+        <button mat-button>On Sale</button>
+        <button mat-button>New Arrivals</button>
+        <button mat-button>Brands</button>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+        <form>
+            <mat-form-field>
+                <mat-label>Search</mat-label>
+                <input matInput placeholder="Search for Products">
+            </mat-form-field>
+
+            <button mat-button color="primary">Search</button>
+        </form>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+        <button mat-button matTooltip="My profile">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="person"></mat-icon>
+        </button>
+        <button mat-button matTooltip="Shoppingn  Cart">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="shopping_cart"></mat-icon>
+        </button>
+    </mat-grid-tile>
+    
+</mat-grid-list>
